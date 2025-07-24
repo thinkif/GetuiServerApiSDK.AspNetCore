@@ -11,6 +11,7 @@ namespace GetuiServerApiSDK.AspNetCore.RequestModels.Channel.Ios
         public string Type { get; set; }
         [JsonProperty(NullValueHandling = NullValueHandling.Ignore)]
         public Aps Aps { get; set; }
+        [JsonProperty(PropertyName = "auto_badge", NullValueHandling = NullValueHandling.Ignore)]
         public string AutoBadge { get; set; }
         [JsonProperty(NullValueHandling = NullValueHandling.Ignore)]
         public string Payload { get; set; }
